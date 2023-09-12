@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-title{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.footer-item{
+    color: #BC7D30;
+    margin-bottom: 5px;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.footer-item:hover {
+    color:#FDB207;
+}
+.footer-logos{
+    display: flex;
+    gap: 8px;
+}
+.footer-logos>img{
+    width: 30px;
+}
+.signature{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
